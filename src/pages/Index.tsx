@@ -77,7 +77,9 @@ function Index() {
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <Icon name="Code" size={28} className="text-primary" />
+              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center">
+                <Icon name="Zap" size={24} className="text-white" />
+              </div>
               <span className="text-2xl font-heading font-bold">DevTeam</span>
             </div>
             <div className="hidden md:flex items-center gap-8">
@@ -292,7 +294,9 @@ function Index() {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
-              <Icon name="Code" size={24} className="text-primary" />
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center">
+                <Icon name="Zap" size={20} className="text-white" />
+              </div>
               <span className="text-xl font-heading font-bold">DevTeam</span>
             </div>
             <p className="text-sm text-muted-foreground">

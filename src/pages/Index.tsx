@@ -90,9 +90,6 @@ function Index() {
               <button onClick={() => scrollToSection('team')} className="text-sm font-medium hover:text-primary transition-colors">
                 Команда
               </button>
-              <button onClick={() => scrollToSection('contact')} className="text-sm font-medium hover:text-primary transition-colors">
-                Контакты
-              </button>
               <Button onClick={() => scrollToSection('contact')}>Связаться</Button>
             </div>
           </div>
